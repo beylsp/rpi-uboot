@@ -12,16 +12,16 @@ If the boot sequence is interrupted, you are dropped to the `U-Boot` shell.
 
 # Building
 
-0. Make sure you have installed the ARM cross-compilation toolchain:
+0. Make sure that you have installed the ARM cross-compilation toolchain:  
     `apt-get install gcc-arm-linux-gnueabi`
 
-1. Specify the cross compiler:
+1. Specify the cross compiler:  
     `export CROSS_COMPILE=arm-linux-gnueabi-`
 
-2. Make the configuration for Raspberry Pi:
+2. Make the configuration for Raspberry Pi:  
     `make rpi_defconfig`
 
-3. Build U-Boot:
+3. Build U-Boot:  
     `make -j8`
 
 4. Done!
