@@ -21,8 +21,8 @@ If the boot sequence is interrupted, you are dropped to the `U-Boot` shell.
 2. Build U-Boot:  
     `make -j8`
 
-   If you need to use a cross compiler other than the default (`arm-linux-gnueabi-`),
-   just pass it to the make command. E.g.:    
+   If you need to use a cross compilation toolchain other than the default (`arm-linux-gnueabi-`),
+   just pass it to the make command:    
     `make CROSS_COMPILE=arm-linux-gnueabihf- -j8`
 
 3. Done!
