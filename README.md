@@ -1,6 +1,6 @@
 This is a fork of the Das U-Boot bootloader for Raspberry Pi.
 
-#Introduction
+# Introduction
 
 `U-Boot` is a popular stage-2 bootloader used by many development platforms and supports several architectures including ARM. It is capable of loading a kernel image from the NAND, SD card, USB drive and even the Ethernet via bootp, DHCP and TFTP. The u-boot executable is stored as a file called `u-boot.bin` in a FAT partition.
 
